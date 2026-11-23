@@ -346,7 +346,7 @@ function WXL_UnitOutline_Tick()
         banner:SetPoint("TOP", UIParent, "TOP", 0, -4)
         local text = banner:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
         text:SetPoint("TOP", banner, "TOP", 0, 0)
-        text:SetText("Unit outline mod loaded")
+        text:SetText("")
     end
     local function info(unit)
         if UnitExists(unit) and not UnitIsUnit(unit, "player") then
